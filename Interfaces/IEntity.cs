@@ -6,5 +6,4 @@ namespace W5_assignment_template.Interfaces
         void Move();
         string Name { get; set; }
     }
-
 }
