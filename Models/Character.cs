@@ -1,4 +1,4 @@
-﻿using W5_assignment_template.Interfaces;
+using W5_assignment_template.Interfaces;
 
 namespace W5_assignment_template.Models;
 
@@ -9,11 +9,6 @@ public class Character : IEntity
     public void Attack(IEntity target)
     {
         Console.WriteLine($"{Name} attacks {target.Name}");
-    }
-
-    public void Fly()
-    {
-        throw new NotImplementedException();
     }
 
     public void Move()
